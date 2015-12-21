@@ -407,6 +407,7 @@
 					"$(PROJECT_DIR)/Example",
 					"$(PROJECT_DIR)/CarrotSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boxedfolder.CarrotExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -430,6 +431,7 @@
 					"$(PROJECT_DIR)/Example",
 					"$(PROJECT_DIR)/CarrotSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boxedfolder.CarrotExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
