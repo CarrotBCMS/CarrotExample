@@ -1,6 +1,6 @@
 /*
- * Carrot - beacon management (sdk)
- * Copyright (C) 2015 Heiko Dreyer
+ * Carrot - beacon content management (sdk)
+ * Copyright (C) 2016 Heiko Dreyer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -54,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Initialize this proxy.
- 
+
  @param uuid UUID string
  @param major Major identifier
  @param minor Minor identifier
@@ -69,7 +69,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Initialize this proxy by providing a CLBeacon object.
- 
+
  @param uuid UUID string
  @param major Major identifier
  @param minor Minor identifier

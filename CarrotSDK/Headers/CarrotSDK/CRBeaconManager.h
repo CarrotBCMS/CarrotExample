@@ -1,6 +1,6 @@
 /*
- * Carrot - beacon management (sdk)
- * Copyright (C) 2015 Heiko Dreyer
+ * Carrot - beacon content management (sdk)
+ * Copyright (C) 2016 Heiko Dreyer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -52,9 +52,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Initialize a CRBeaconManager instance. Must provide a valid app key and url to a running bms endpoint.
- 
+
  @see CRBeaconManagerDelegate
- 
+
  @param delegate Manager delegate
  @param url URL to CarrotBMS
  @param key Application key
@@ -107,7 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)notificationsEnabled;
 
 /**
- Determines bluetooth state 
+ Determines bluetooth state
  */
 - (CRBluetoothState)bluetoothState;
 

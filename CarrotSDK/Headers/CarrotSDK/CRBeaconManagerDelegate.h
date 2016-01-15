@@ -1,6 +1,6 @@
 /*
- * Carrot - beacon management (sdk)
- * Copyright (C) 2015 Heiko Dreyer
+ * Carrot - beacon content management (sdk)
+ * Copyright (C) 2016 Heiko Dreyer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -34,10 +34,10 @@
 
 /**
  Invoked whenever a known beacon enters proximity range.
- 
+
  @see CRBeaconManager
  @see CRBeacon
- 
+
  @param beaconManager Beacon manager
  @param beacon Single beacon
  */
@@ -45,10 +45,10 @@
 
 /**
  Invoked whenever a known beacon exists proximity range.
- 
+
  @see CRBeaconManager
  @see CRBeacon
- 
+
  @param beaconManager Beacon manager
  @param beacon Single beacon
  */
@@ -56,11 +56,11 @@
 
 /**
  Invoked whenever a notification has been fired.
- 
+
  @see CRBeaconManager
  @see CRNotificationEvent
  @see CRBeacon
- 
+
  @param beaconManager Beacon manager
  @param notification Notification event
  @param beacon Single beacon
@@ -70,11 +70,11 @@
 
 /**
  Invoked whenever one or more events are triggered and ready to be presented.
- 
+
  @see CRBeaconManager
  @see CREvent
  @see CRBeacon
- 
+
  @param beaconManager Beacon manager
  @param events An array containing all events that should be presented
  @param beacon Single beacon
@@ -88,9 +88,9 @@
 
 /**
  Invoked whenever a syncing error occurs.
- 
+
  @see CRBeaconManager
- 
+
  @param beaconManager Beacon manager
  @param error The error
  */
@@ -99,7 +99,7 @@
 
 /**
  Invoked whenever syncing finishes.
- 
+
  @see CRBeaconManager
  @param beaconManager Beacon manager
  */
@@ -111,9 +111,9 @@
 
 /**
  Invoked whenever a known beacon exists proximity range.
- 
+
  @see CRBeaconManager
- 
+
  @param beaconManager Beacon manager
  @param state The bluetooth state
  */
@@ -125,10 +125,10 @@
 
 /**
  Invoked whenever authorization status changes.
- 
+
  @see CLBeaconManagerDelegate
  @see CRBeaconManager
- 
+
  @param beaconManager Beacon manager
  @param status Authorization status
  */
@@ -136,11 +136,11 @@
 
 /**
  Invoked whenever the user enters a region.
- 
+
  @see CLBeaconManagerDelegate
  @see CRBeaconManager
  @see CLBeaconRegion
- 
+
  @param beaconManager Beacon manager
  @param region The specific region
  @param beacons All beacons
@@ -150,11 +150,11 @@
 
 /**
  Invoked whenever the user exits a region.
- 
+
  @see CLBeaconManagerDelegate
  @see CRBeaconManager
  @see CLBeaconRegion
- 
+
  @param beaconManager Beacon manager
  @param region The specific region
  @param beacons Array with beacons
@@ -164,11 +164,11 @@
 
 /**
  Invoked whenever a region state was determined.
- 
+
  @see CLBeaconManagerDelegate
  @see CRBeaconManager
  @see CLBeaconRegion
- 
+
  @param beaconManager Beacon manager
  @param state The current state
  @param region The specific region
@@ -178,11 +178,11 @@
 
 /**
  Invoked whenever beacons were ranged.
- 
+
  @see CLBeaconManagerDelegate
  @see CRBeaconManager
  @see CLBeaconRegion
- 
+
  @param beaconManager Beacon manager
  @param beacons Array with beacons
  @param region The specific region
@@ -196,9 +196,9 @@
 
 /**
  Invoked whenever an error occurs.
- 
+
  @see CRBeaconManager
- 
+
  @param beaconManager Beacon manager
  @param error Error
  */
@@ -206,9 +206,9 @@
 
 /**
  Invoked whenever an error occurs while monitoring a specific region.
- 
+
  @see CRBeaconManager
- 
+
  @param beaconManager Beacon manager
  @param region The region
  @param error Error
@@ -218,10 +218,10 @@
 
 /**
  Invoked whenever there is a ranging error for the specific region.
- 
+
  @see CRBeaconManager
  @see CLBeaconRegion
- 
+
  @param beaconManager Beacon manager
  @param beaconManager Current region
  @param error Error
