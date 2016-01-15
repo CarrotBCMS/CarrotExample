@@ -15,7 +15,7 @@
 		603CC7C61B14A9FA0077A48C /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603CC7C51B14A9FA0077A48C /* ExampleTests.m */; };
 		603CC7DC1B14AA5F0077A48C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603CC7DB1B14AA5F0077A48C /* CoreLocation.framework */; };
 		60AA3FE01B19C9FD006F05AA /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AA3FDF1B19C9FD006F05AA /* StatusViewController.m */; };
-		60B1ED561C2766F1009E6276 /* CarrotSDK_0.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B1ED551C2766F1009E6276 /* CarrotSDK_0.5.0.a */; };
+		EC230EE31C296337005B5BC9 /* CarrotSDK_0.5.0_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC230EE21C296337005B5BC9 /* CarrotSDK_0.5.0_fat.a */; };
 		EC7226C01C27EA4B009AC122 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7226BF1C27EA4B009AC122 /* SystemConfiguration.framework */; };
 		EC7226C21C27EA92009AC122 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7226C11C27EA92009AC122 /* CoreBluetooth.framework */; };
 		EC7226C41C27EAC1009AC122 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7226C31C27EAC1009AC122 /* MobileCoreServices.framework */; };
@@ -60,7 +60,7 @@
 		603CC7DB1B14AA5F0077A48C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		60AA3FDE1B19C9FD006F05AA /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
 		60AA3FDF1B19C9FD006F05AA /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
-		60B1ED551C2766F1009E6276 /* CarrotSDK_0.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = CarrotSDK_0.5.0.a; path = CarrotSDK/CarrotSDK_0.5.0.a; sourceTree = SOURCE_ROOT; };
+		EC230EE21C296337005B5BC9 /* CarrotSDK_0.5.0_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CarrotSDK_0.5.0_fat.a; sourceTree = "<group>"; };
 		EC7226BF1C27EA4B009AC122 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EC7226C11C27EA92009AC122 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		EC7226C31C27EAC1009AC122 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -71,11 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC230EE31C296337005B5BC9 /* CarrotSDK_0.5.0_fat.a in Frameworks */,
 				EC7226C41C27EAC1009AC122 /* MobileCoreServices.framework in Frameworks */,
 				EC7226C21C27EA92009AC122 /* CoreBluetooth.framework in Frameworks */,
 				EC7226C01C27EA4B009AC122 /* SystemConfiguration.framework in Frameworks */,
 				603CC7DC1B14AA5F0077A48C /* CoreLocation.framework in Frameworks */,
-				60B1ED561C2766F1009E6276 /* CarrotSDK_0.5.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +153,7 @@
 		603CC7DD1B14AA6B0077A48C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60B1ED551C2766F1009E6276 /* CarrotSDK_0.5.0.a */,
+				EC230EE21C296337005B5BC9 /* CarrotSDK_0.5.0_fat.a */,
 				EC7226C31C27EAC1009AC122 /* MobileCoreServices.framework */,
 				EC7226C11C27EA92009AC122 /* CoreBluetooth.framework */,
 				EC7226BF1C27EA4B009AC122 /* SystemConfiguration.framework */,
